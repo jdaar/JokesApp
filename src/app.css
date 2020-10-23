@@ -97,31 +97,31 @@ footer {
     border: none;
   }
 
-  @keyframes toggle {
-    from {
-      height: 0vh;
-      opacity: 0%;
-      display: flex;
-      flex-direction: column;
-    }
-    to {
-      height: 30vh;
-      opacity: 100%;
-      width: 100vw;
-      display: flex;
-      flex-direction: column;
-    }
-  }
-
   .dropdown-content button {
     font-size: large;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     color: #abd6fb;
   }
+}
 
-  .toggled {
-    animation: toggle 1s;
+.toggled {
+  animation: toggle 1s;
+  height: 30vh;
+  opacity: 100%;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+@keyframes toggle {
+  from {
+    height: 0vh;
+    opacity: 0%;
+    display: flex;
+    flex-direction: column;
+  }
+  to {
     height: 30vh;
     opacity: 100%;
     width: 100vw;

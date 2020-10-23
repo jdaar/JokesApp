@@ -21,6 +21,4 @@ const jokes = createSlice({
 export const { addJokes } = jokes.actions;
 export const store = createStore(jokes.reducer);
 
-store.subscribe(() => console.log(store.getState()));
-
 export type TRootState = ReturnType<typeof store.getState>;
