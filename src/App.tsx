@@ -96,7 +96,7 @@ export default function App() {
                 Programming
               </button>
               <button onClick={(e) => changeSection("general")}>General</button>
-              <button onClick={(é) => changeSection("knock-knock")}>
+              <button onClick={(e) => changeSection("knock-knock")}>
                 Knock-knock
               </button>
             </div>

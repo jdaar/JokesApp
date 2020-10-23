@@ -87,6 +87,7 @@ footer {
     padding: 12px 16px;
     z-index: 1;
     transition: 1s;
+    opacity: 100%;
     opacity: 0;
   }
 
@@ -105,15 +106,6 @@ footer {
   }
 }
 
-.toggled {
-  animation: toggle 1s;
-  height: 30vh;
-  opacity: 100%;
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-}
-
 @keyframes toggle {
   from {
     height: 0vh;
@@ -128,6 +120,13 @@ footer {
     display: flex;
     flex-direction: column;
   }
+}
+.toggled {
+  animation: toggle 1s;
+  height: 30vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
 }
 
 .home {
